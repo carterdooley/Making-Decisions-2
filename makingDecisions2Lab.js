@@ -55,7 +55,7 @@ for (let b = 0; b < nums.length; b++){
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
-var score = 74
+var score = 65
 // Do not edit the code above.
 
 /*
@@ -63,7 +63,17 @@ var score = 74
 */
 
 //Code Here
-
+if (score >= 90){
+  console.log('A')
+} else if (score < 90 && score >= 80){
+  console.log('B')
+} else if (score < 80 && score >= 70){
+  console.log('C')
+} else if (score < 70 && score >= 60){
+  console.log('D')
+} else {
+  console.log('F')
+}
 
 ////////// Intermediate Problems //////////
 
